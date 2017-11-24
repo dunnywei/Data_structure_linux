@@ -6,12 +6,12 @@
 #include <string>
 
 using namespace std;
-typedef struct Node
+typedef struct BstNode
 {
 	int data;
-	struct Node *left;
-	struct Node *right;
-}Node;
+	struct BstNode *left;
+	struct BstNode *right;
+}BstNode;
 
 int main()
 {
