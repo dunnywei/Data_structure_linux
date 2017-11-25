@@ -13,6 +13,12 @@ typedef struct BstNode
 	struct BstNode *right;
 }BstNode;
 
+BstNode* rootptr=NULL; 
+
+void insert(BstNode *_tmpp_root,int data)
+{
+	
+}
 int main()
 {
 	
