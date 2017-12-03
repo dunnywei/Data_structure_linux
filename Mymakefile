@@ -1,0 +1,4 @@
+all:
+	g++ LL1.c -o LL1
+clean:
+	rm LL1
