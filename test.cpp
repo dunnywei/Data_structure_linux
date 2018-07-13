@@ -71,43 +71,6 @@ void deletehead()
 		printf("Nothing to delete \n");
 	}
 }
-/*
-void deleteN(int _n)
-{
-	Node *temp1=A;
-	Node *temp2=NULL;
-    int counter;
-	if ((A!=NULL))
-	{
-	   printf("@(A!=NULL)&&(_n<=traverseList() \n");
-	   counter=1;
-	   
-	   while(counter<(_n-1))
-	   {
-		   temp1=temp1->next;
-		   counter+=1;
-	   }
-	   printf("value of counter is %d \n",counter);
-	   if(counter>1)
-	   {
-		   temp2=temp1->next;
-		   temp1->next=temp2->next;
-		   free(temp2);
-	   }
-	   else
-	   {
-		   A=temp1->next;
-		   free(temp1);
-	   }
-	   
-	   if(traverseList()==0)
-	   {
-		   A=NULL;
-	   }
-	   
-	}
-}
-*/
 void deletN(int _n)
 {
 	Node *temp1=A;
@@ -161,99 +124,9 @@ void reverseIter()
 	
 }
 
-bool IsCharDuplication(string &s) {
-
-  bool result = false;
-  bool controlArray[256];
-  for(int i=0;i<256;i++)
-  {
-  	controlArray[i]=false;
-  }
-
-  cout<<"s.length() is"<<s.length()<<endl;
- 
-  
-  int i=0;
-  for (string::iterator it = s.begin(); it!=s.end(); it++) {
-    int temp=(*it);
-    
-    if(controlArray[temp]==false)
-    {
-    	controlArray[temp]=true;
-    }
-    else
-    {
-    	cout<<"controlArray[temp]"<<controlArray[temp]<<endl;
-    	cout<<"find repetition @ "<<i<<endl;
-    	result=true;
-
-    }
-    
-    cout<<"i is"<<i<<endl;
-    i++;
-  }
-  
-  return result;
-}
-
-int *obtainIntarray(int temp2,int _length)
-{
-	int *returnptr=(int*)calloc(_length,sizeof(int));
-	for(int i=0;i<_length;i++)
-	{
-		int quotient=temp2/10;
-		int remainder=temp2%10;
-		returnptr[i]=remainder;
-		
-		cout<<"returnptr[i] is "<<returnptr[i]<<" i is "<<i<<endl;
-
-		
-		temp2=quotient;
-		
-	}
-	return returnptr;
-}
-
-void testamostrong(int _temp)
-{
-   /*
-    int n = log10(_temp) + 1;
-	cout<<"n is "<<n<<endl;
-    int i;
-    int *numberArray = (int *)calloc(n, sizeof(int));
-    for ( i = 0; i < n; i++, _temp /= 10 )
-    {
-		cout<<"_temp is"<<_temp<<endl; 
-        numberArray[i] = _temp % 10;
-		cout<<"numberArray[i] is "<<numberArray[i]<<" i is "<<i<<endl;
-    }
-    */
-	
-	int length=floor(log10(_temp))+1;
-	cout<<"length is"<<length<<endl;
-	
-	int *temp=obtainIntarray(_temp,length);
-	
-	
-	
-	
-}
-
-
 int main()
 {
 	int temp;
-	/*
-	//check the duplication of string
-	string s1="hellow";
-	bool temp=IsCharDuplication(s1);
-	*/
-	
-	//test amostrong number
-	
-	printf("enter a number for amstrong \n");
-	scanf("%d",&temp);
-	testamostrong(temp);
 	
 	
 	/*
