@@ -34,6 +34,28 @@ void createENode(int _number)
 
 	return;
 }
+void insertNode(int _data, int _pos)
+{
+	Node* temp=(struct Node*)malloc(sizeof(struct Node));
+        temp1=A;
+	if(A!=NULL)
+	{
+	    for(int i=0;i<_pos;i++)
+	    {
+		    temp1=temp1->next;
+	    }
+		
+	    temp2=temp1->next;
+	    temp1->next=temp;
+	    temp->next=temp2;
+		
+	}
+	else
+	{
+		printf("A is NULL\n");
+	}
+	
+}
 
 int traverseList()
 {
@@ -128,12 +150,17 @@ int main()
 {
 	int temp;
 	
+	createENode(2);
+    
+	createENode(4);
+	createENode(6);
+	printf("There are %d of elements in link",traverseList());
 	
 	/*
 	int x;
 	for( x= -5 ; x<7; x++) printf("x is %d \n",x);
 	printf("hey hey\n");
-    createENode(9);
+        createENode(9);
     
 	createENode(10);
 	createENode(11);
