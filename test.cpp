@@ -106,6 +106,7 @@ void deletN(int _n)
 		return;
 	}
 	
+	//for(int i=0;i<(_n-2);i++)
 	for(int i=0;i<(_n-2);i++)
 	{
 		temp1=temp1->next;
@@ -126,7 +127,7 @@ void reverseIter()
 		temp2=(*temp1).next;
 		if(counter>=1)
 		{
-           printf("@reverseIter and ounter>=1,The value of temp1->data is %d \n",temp1->data);
+                   printf("@reverseIter and ounter>=1,The value of temp1->data is %d \n",temp1->data);
          
 		   temp1->next=temp_collect;
 		   temp_collect=temp1;
@@ -158,8 +159,11 @@ int main()
 	createENode(4);
 	createENode(2);
 	insertNode(8,2);
-	printf("There are %d of elements in link",traverseList());
+	printf("There are %d of elements in link\n",traverseList());
 	
+	deletN(3);
+	printf("After delete,There are %d of elements in link \n",traverseList());
+
 	/*
 	int x;
 	for( x= -5 ; x<7; x++) printf("x is %d \n",x);
