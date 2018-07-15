@@ -115,39 +115,21 @@ void deletN(int _n)
 	temp1->next=temp2->next;
 	free(temp2);
 }
-void reverseIter()
+void reverseIter(struct Node* head)
 {
-	Node *temp1=A;
-	Node *temp2=A;
-	int counter=0;
-	Node *temp_collect=NULL;
-
-	while(temp1->next!=NULL)
+	//https://www.youtube.com/watch?v=sYcOK51hl-A&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=9
+	Node *current=A;
+	Node *prev=NULL;
+	Node *next=NULL;
+	while (current!=NULL)
 	{
-		temp2=(*temp1).next;
-		if(counter>=1)
-		{
-                   printf("@reverseIter and ounter>=1,The value of temp1->data is %d \n",temp1->data);
-         
-		   temp1->next=temp_collect;
-		   temp_collect=temp1;
-		   A=temp1;
-		   //traverseList();
-		}
-		else
-		{
-			temp_collect=temp1;
-			temp_collect->next=NULL;
-			printf("@reverseIter and else,The value of temp_collect->data is %d \n",temp_collect->data);
-			
-		}
-		
-		temp1=temp2;
-		counter+=1;
+		next=current->next;
+		current->next=prev;
+		prev=current;
+		current=current->next; //(9:18) or *(current).next
 	}
-	temp1->next=temp_collect;
-	A=temp1;
-	
+	A=prev;
+	return A;
 }
 
 int main()
