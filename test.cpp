@@ -128,7 +128,7 @@ void reverseIter()
 		next=current->next;
 		current->next=prev;
 		prev=current;
-		current=current->next; //(9:18) or *(current).next
+		current=next; //(9:18) or *(current).next
 	}
 	A=prev;
 }
