@@ -49,5 +49,10 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-Node 1 is called as parent node of node 2 and node 3 (5:08)]
 	-Node 4, NOde 5 and Node 6 are children of node 2 (5:27)
 	-Dhildren of same parent are called sibling (5:37)
+		-Node 2 and 3 are sibling and node 7,8 are sibling (5:45)
+		-root will be an only node without a parent (5:59)
+	-Any tree DOESN'T have a child is called a leaf node (6:11)
+	-All node with at least one child is a.k.a as internal node(6:24)
+	-
 
 */
