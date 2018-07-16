@@ -42,6 +42,12 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 -Tree is used for heirachy data (1:51) such as organizatoin's structure (2:54)
 -Termalnology
 	-Tree refers to Nodes linke to gether (3:18) to simulate a hierachy.
-	-Tree is non-linear data structure (3:21)
+	-Tree is non-linear data structure (3:21)It is a hierachy data
+	-Top is called root of the tree (3:31)
+	-a node contains a reference to the next node:Children (3:56)
+	-Node 2 and Node 3 are called Childeren of node 1(5:04)
+	-Node 1 is called as parent node of node 2 and node 3 (5:08)]
+	-Node 4, NOde 5 and Node 6 are children of node 2 (5:27)
+	-Dhildren of same parent are called sibling (5:37)
 
 */
