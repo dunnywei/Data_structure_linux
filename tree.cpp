@@ -37,5 +37,11 @@ int main()
 /*
 Lecture 25->Data structures: Introduction to Trees (1:51)
 
--Tree is used for heirachy data (1:51)
+
+-Cost of operaton->array list for binary search will be fast (1:35) 
+-Tree is used for heirachy data (1:51) such as organizatoin's structure (2:54)
+-Termalnology
+	-Tree refers to Nodes linke to gether (3:18) to simulate a hierachy.
+	-Tree is non-linear data structure (3:21)
+
 */
