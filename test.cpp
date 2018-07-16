@@ -115,7 +115,7 @@ void deletN(int _n)
 	temp1->next=temp2->next;
 	free(temp2);
 }
-void reverseIter(struct Node* head)
+void reverseIter()
 {
 	//https://www.youtube.com/watch?v=sYcOK51hl-A&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=9
 	Node *current=A;
@@ -123,13 +123,14 @@ void reverseIter(struct Node* head)
 	Node *next=NULL;
 	while (current!=NULL)
 	{
+	        cout<<"@reverseIter,The value of current->data is"<<current->data<<endl;
+
 		next=current->next;
 		current->next=prev;
 		prev=current;
 		current=current->next; //(9:18) or *(current).next
 	}
 	A=prev;
-	return A;
 }
 
 int main()
@@ -143,8 +144,12 @@ int main()
 	insertNode(8,2);
 	printf("There are %d of elements in link\n",traverseList());
 	
-	deletN(3);
-	printf("After delete,There are %d of elements in link \n",traverseList());
+	//deletN(3);
+	//printf("After delete,There are %d of elements in link \n",traverseList());
+	reverseIter();
+	printf("After reverse, There are %d of elements in link \n",traverseList());
+	
+	
 
 	/*
 	int x;
