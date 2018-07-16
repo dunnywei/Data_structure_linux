@@ -33,3 +33,9 @@ int main()
 {
 	
 }
+
+/*
+Lecture 25->Data structures: Introduction to Trees (1:51)
+
+-Tree is used for heirachy data (1:51)
+*/
