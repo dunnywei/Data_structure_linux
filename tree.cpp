@@ -63,5 +63,15 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	have same grand parent so they are called COUSINs (7:57)
 	-Node 3 is Uncle of node 6 since  Node 2 is the sibling of node 3(8:10)(8:13)
 -Le's talk about the property of tree (8:23)
-
+	-Tree can be recursively data structure (8:29)
+	-It consits of a root and sub trees (8:37)
+	-Roots contains the link to all group in the subtree (8:44)
+	-eg, T1,T2 and T3 are sub trees (8:49)
+	-In aour case, we have root node, left sub tree and right sub tree (9:00)
+	-Recursion is reducing sth in a self similar manner (9:20)
+	-Recursive implementation will occur everywhere in the tree data strucutre
+->(9:29) Next peroperty is we N nodes, we will have N-1 edges (Links) (9:35)
+	-Each arrow in this figure is a.k.a as a link or an edge (9:37)
+	-In node 2, we only have 1 incoming link (9:52)
+	-
 */
