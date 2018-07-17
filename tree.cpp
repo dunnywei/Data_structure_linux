@@ -53,6 +53,9 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 		-root will be an only node without a parent (5:59)
 	-Any tree DOESN'T have a child is called a leaf node (6:11)
 	-All node with at least one child is a.k.a as internal node(6:24)
-	-
+	-Parent of Parent is called grand parent (6:33)
+	-Link is not bidirectional (6:48)
+	-When wea are walking the tree, we can only walk in one direction only (6:57)
+	-It we can go from Node A to Node B, A is called ancestor of B (7:04)
 
 */
