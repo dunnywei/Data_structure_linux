@@ -56,6 +56,12 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-Parent of Parent is called grand parent (6:33)
 	-Link is not bidirectional (6:48)
 	-When wea are walking the tree, we can only walk in one direction only (6:57)
-	-It we can go from Node A to Node B, A is called ancestor of B (7:04)
+	-It we can go from Node A to Node B, A is called ancestor of B (7:04). B is the descendent of A
+	-Node 1, NOde 2, and Node 5 are all ancesotr of node 10. (7:14)
+	-Node 10 is the descendent of Node 1, NOde 2, and Node 5 (7:17)
+	-Does node 6 and node 7 are sibling? Sibling must have same parent (7:50). However Node 6 and Node 7
+	have same grand parent so they are called COUSINs (7:57)
+	-Node 3 is Uncle of node 6 since  Node 2 is the sibling of node 3(8:10)(8:13)
+-Le's talk about the property of tree (8:23)
 
 */
