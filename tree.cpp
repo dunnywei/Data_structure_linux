@@ -87,5 +87,11 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-Height of leaf node is 0 (11:47)
 	-Height of root or Node 1 is 3 (11:57)
 ->Height of the tree=height of the root node (12:04)
-
+->Simpleset tree is any node can have at most 2 children (12:34)=binary tree (12:42)
+->binary tree
+	-center is to store data(13:13)
+	-left is to store the address of left child
+	-right is to store the address of right child(13:22)
+	
+	
 */
