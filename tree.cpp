@@ -76,5 +76,10 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-There will be one link between each parent and child relationship (10:00)
 	-One incoming edge for each node except root (10:08)
 ->We are going to cover two properties as depth and height (10:15)
-	
+->Depth of X=length of path from root to x (10:21). Or # of edge in path from root to X(10:32)
+	-depth of root node will be 0 (10:35)
+	-eg, node 5 has depth of 2 (10:46)
+	-depth of node 9,node 10 and node 11 are 3 (10:59)
+->
+
 */
