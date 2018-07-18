@@ -72,6 +72,9 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-Recursive implementation will occur everywhere in the tree data strucutre
 ->(9:29) Next peroperty is we N nodes, we will have N-1 edges (Links) (9:35)
 	-Each arrow in this figure is a.k.a as a link or an edge (9:37)
-	-In node 2, we only have 1 incoming link (9:52)
-	-
+	-In node 2, we only have 1 incoming link (9:52) and 3 out going links (9:56)
+	-There will be one link between each parent and child relationship (10:00)
+	-One incoming edge for each node except root (10:08)
+->We are going to cover two properties as depth and height (10:15)
+	
 */
