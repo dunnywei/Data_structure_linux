@@ -77,9 +77,15 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-One incoming edge for each node except root (10:08)
 ->We are going to cover two properties as depth and height (10:15)
 ->Depth of X=length of path from root to x (10:21). Or # of edge in path from root to X(10:32)
+ 	-(think as penetration power from top to buttom)
 	-depth of root node will be 0 (10:35)
 	-eg, node 5 has depth of 2 (10:46)
 	-depth of node 9,node 10 and node 11 are 3 (10:59)
-->
+->Height of X=# of edeges in largest path from x to leaf node (11:09)
+	-(Think as how tall you are from buttom to top)
+	-Height of Node 3 is 2 (11:26)
+	-Height of leaf node is 0 (11:47)
+	-Height of root or Node 1 is 3 (11:57)
+->Height of the tree=height of the root node (12:04)
 
 */
