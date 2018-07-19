@@ -135,7 +135,9 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 	-Need to solve the equation of n=[2^(h+1)]-1->h=log2(n+1)-1 (7:26)
 ->Height of complete binary tree-> floor[log2(n)] (7:9)
 	-In this case, n=15 so floor[log2(15)]=3
-->this math will help us to understand the cost of binary tree
-		
+->this math will help us to understand the cost of binary tree(8:31)
+->cost of operation in trees depends on the height of the tree (8:36)
+->In binary tree, the search, insertion and deletion is proprotional to the height of tree (8:50)
+->So we want height of tree will be less (8:55)
 		
 */
