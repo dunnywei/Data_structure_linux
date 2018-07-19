@@ -159,6 +159,21 @@ every node is not more than k(most 1) (10:39)
 ->Height of an empty tree is -1 so
 ->height of tree with 1 node=0 (11:21)
 ->|difference|=|hleft-hright| (12:18)
-->One example, |difference|=|1-2| (12:48)
-->Another example, |difference|=|2-0| (13:01)
+->One example, |difference|=|1-2| (12:48)(??)
+->Another example, |difference|=|1-(-1)| (13:01)(13:13)
+->We try to keep the height as minimized so the various operations that depends on height are minimized
+(13:25)
+->Store binary tree in memory(13:33)
+	-dynamically create nodes (14:02)
+		-most common way (14:04)
+	-arrays
+		-complete binary tree(14:41)
+		-eg: array as 2,4,1,5,8,7,9
+		     indices  0,1,2,3,4,5,6
+		 -for nodea at index i
+		 	left-child-index=2i+1
+			right-child-indx=2i+2 (15:17)
+		-It is used to implemen heap (15:57)
+->binary search tree->for quick insertion and search quickly (16:14)
+		
 */
