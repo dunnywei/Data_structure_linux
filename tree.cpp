@@ -116,5 +116,11 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 	and another as right child (1:00)
 	-If there is "NULL" for the edge, it means it doesn't point to anything (1:44)
 ->classified binary trees into different types (1:59)
-
+	-The only condition for binary tree is that it CAN'T have more than two children (2:15)
+	-Strict binary tree->Each node can have either 2 or 0 children
+	-Complete binary tree->all levels except possibly the last completely filled and all nodes are
+	as left as possible (2:36)
+		-maximum # of nodes at level i is 2^i in complete binary tree (3:49) starts from
+		level 0 (4:10)
+		-
 */
