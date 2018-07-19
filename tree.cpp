@@ -139,5 +139,8 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 ->cost of operation in trees depends on the height of the tree (8:36)
 ->In binary tree, the search, insertion and deletion is proprotional to the height of tree (8:50)
 ->So we want height of tree will be less (8:55)
-		
+->Height of tree will be less if the tree will be dense (8:55), if the tree will be closer to
+a perfect binary tree or complete binary tree (9:02)
+->minimum height of  a tree with nodes can be h=log2(n+1)-1 when the tree (9:07) will be a complete 
+binary tree
 */
