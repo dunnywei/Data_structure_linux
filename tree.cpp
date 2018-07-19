@@ -143,4 +143,9 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 a perfect binary tree or complete binary tree (9:02)
 ->minimum height of  a tree with nodes can be h=log2(n+1)-1 when the tree (9:07) will be a complete 
 binary tree
+->In an arrangment like a link list
+	-With n node, mimimum height possible is floor[log2(n)]  (9:21)
+	-max height=n-1
+	-It is a.k.a as sparse tree (9:33) like a link list
+	-Time taken operation is proportional to the height of the tree (9:40)
 */
