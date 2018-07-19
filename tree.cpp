@@ -92,6 +92,19 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 	-center is to store data(13:13)
 	-left is to store the address of left child
 	-right is to store the address of right child(13:22)
-	
-	
+	-Binary tree can't have more than two children (13:25)
+	-We can define strcutre in C/C++ as in (13:40)
+->generic tree
+	-Can have many number of children (14:14)
+->Application
+	-Storing natually hierachical data (14:47) eg file system
+	-organizing data eg quick search, insertion, deletion eg binary search tree gives log and time for searching element
+	(15:16)
+	-Trie for storing dictionary for dynmaic search(15:30)
+	-Networking algorithm (15:43)
+*/
+
+/*
+Lecture 26
+
 */
