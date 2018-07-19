@@ -105,6 +105,15 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 */
 
 /*
-Lecture 26
+Lecture 26: Data structres Binary tree
+https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=26
 
+->Binary tree
+	-It is good for storing the ordered data(0:35)
+	-Each node can have at most two children (0:36)
+	-However a node with one child can exist (0:48)
+	-Each node in a binary tree can have at most 2 children, we call one of the children as left child
+	and another as right child (1:00)
+	
+	-
 */
