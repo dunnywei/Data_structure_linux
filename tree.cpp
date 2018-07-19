@@ -105,7 +105,7 @@ Lecture 25->Data structures: Introduction to Trees (1:51)
 */
 
 /*
-Lecture 26: Data structres Binary tree
+Lecture 26: Data structures  Binary tree
 https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=26
 
 ->Binary tree
@@ -129,10 +129,13 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 	-Perfect binary tree->all levels are filled
 		-maxium number of nodes in a binary tree with a height as h (6:03)
 		=2^0+2^1+....+2^h (6:10)=[2^(h+1)]-1 (6:20)
-		OR=[2^(# of levels=#of nodes)]-1
-		->in this case, our nodes are 4 so we have 2^(4)-1=15 (6:38)
-	-What will be the height of a perfect binary tree with n nodes (6:59)
-	-
+		OR=[2^(heights+1)]-1 OR= [2^(# of levels)]-1
+		->in this case, our levels are 4 so we have 2^(4)-1=15 (6:38)
+	-What will be the height of a perfect binary tree with n nodes? (6:59)
+	-Need to solve the equation of n=[2^(h+1)]-1->h=log2(n+1)-1 (7:26)
+->Height of complete binary tree-> floor[log2(n)] (7:9)
+	-In this case, n=15 so floor[log2(15)]=3
+->this math will help us to understand the cost of binary tree
 		
 		
 */
