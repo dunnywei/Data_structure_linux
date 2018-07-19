@@ -147,5 +147,10 @@ binary tree
 	-With n node, mimimum height possible is floor[log2(n)]  (9:21)
 	-max height=n-1
 	-It is a.k.a as sparse tree (9:33) like a link list
-	-Time taken operation is proportional to the height of the tree (9:40)
+->Time taken operation is proportional to the height of the tree (9:40) as O(h) (9:47)	
+	-h=height of binary tree (9:50)
+	-Complete binary tree will be O[log2(n)] (9:57), Best case (10:07)
+	-In sparse tree, it will be O(n) (10:03), Worst case
+->We want to keep the height of the tree as minimum as possible (10:32)
+	
 */
