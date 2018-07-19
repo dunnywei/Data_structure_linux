@@ -151,6 +151,9 @@ binary tree
 	-h=height of binary tree (9:50)
 	-Complete binary tree will be O[log2(n)] (9:57), Best case (10:07)
 	-In sparse tree, it will be O(n) (10:03), Worst case
+	-Listen to the example again between (10:07 to 10:32)
 ->We want to keep the height of the tree as minimum as possible (10:32)
-	
+->We try to keep binary tree balanced-> Different between height of left and right subtree for
+every node is not more than k(most 1) (10:39)
+
 */
