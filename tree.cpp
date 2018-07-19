@@ -155,5 +155,9 @@ binary tree
 ->We want to keep the height of the tree as minimum as possible (10:32)
 ->We try to keep binary tree balanced-> Different between height of left and right subtree for
 every node is not more than k(most 1) (10:39)
+->Height-> # of edges in the longest path from root to a leaf (11:05)
+->Height of an empty tree is -1 so
+->height of tree with 1 node=0 (11:21)
+->|difference|=|hleft-hright| (12:18)
 
 */
