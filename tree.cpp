@@ -159,5 +159,6 @@ every node is not more than k(most 1) (10:39)
 ->Height of an empty tree is -1 so
 ->height of tree with 1 node=0 (11:21)
 ->|difference|=|hleft-hright| (12:18)
-
+->One example, |difference|=|1-2| (12:48)
+->Another example, |difference|=|2-0| (13:01)
 */
