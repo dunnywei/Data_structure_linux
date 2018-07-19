@@ -120,7 +120,19 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 	-Strict binary tree->Each node can have either 2 or 0 children
 	-Complete binary tree->all levels except possibly the last completely filled and all nodes are
 	as left as possible (2:36)
-		-maximum # of nodes at level i is 2^i in complete binary tree (3:49) starts from
-		level 0 (4:10)
-		-
+		-maximum # of nodes at level i is 2^i  (3:49) starts from
+		level 0 (4:10) 
+		-eg level 0 is 2^0=1
+		-The example given is not a complete binary tree since it is not left most(5:04)
+		however, its level 2 is all filled
+		-It changes to the complete binary tree in (5:10)
+	-Perfect binary tree->all levels are filled
+		-maxium number of nodes in a binary tree with a height as h (6:03)
+		=2^0+2^1+....+2^h (6:10)=[2^(h+1)]-1 (6:20)
+		OR=[2^(# of levels=#of nodes)]-1
+		->in this case, our nodes are 4 so we have 2^(4)-1=15 (6:38)
+	-What will be the height of a perfect binary tree with n nodes (6:59)
+	-
+		
+		
 */
