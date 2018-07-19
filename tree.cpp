@@ -159,7 +159,12 @@ every node is not more than k(most 1) (10:39)
 ->Height of an empty tree is -1 so
 ->height of tree with 1 node=0 (11:21)
 ->|difference|=|hleft-hright| (12:18)
-->One example, |difference|=|1-2| (12:48)(??)
+->One example, |difference|=|1-2| (12:48)(??) (around 13:07)
+	-Check the comment as 
+	-We are saying height of left and right subtrees.  Height is defined as number of edges in some longest path  from root to   a leaf. 
+	For the sub-trees, the root node is not the node marked in red. 
+	For left subtree, root node is the left child and for right sub-tree root node is the right child.  
+	We need to calculate from root of the respective subtrees.
 ->Another example, |difference|=|1-(-1)| (13:01)(13:13)
 ->We try to keep the height as minimized so the various operations that depends on height are minimized
 (13:25)
