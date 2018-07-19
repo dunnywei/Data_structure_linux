@@ -114,6 +114,7 @@ https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 	-However a node with one child can exist (0:48)
 	-Each node in a binary tree can have at most 2 children, we call one of the children as left child
 	and another as right child (1:00)
-	
-	-
+	-If there is "NULL" for the edge, it means it doesn't point to anything (1:44)
+->classified binary trees into different types (1:59)
+
 */
