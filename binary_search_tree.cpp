@@ -48,6 +48,10 @@ in left subtree is lesser or equal and value of all nodes in right subtree is gr
       10   20
      / \  /  \
     8 12 17   25
+ -It is like a double link list since you have two nodes. One point to the preious node (2:29)
+ -Doubl link list is a linear arrangment (2:35)
+ -malloc has to be accessed through a pointer (3:15)
+ -We need to know the address of the root node (3:53) so we can access all other nodes in a tree(3:57)
  -
 */
 
