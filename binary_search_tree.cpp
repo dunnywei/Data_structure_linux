@@ -15,7 +15,7 @@ typedef struct BstNode
 
 BstNode* rootptr=NULL; 
 
-BstNode* Insert(BstNode* _tmpp_root,int data)
+BstNode* Insert(BstNode* root,int data)
 {
    if(*root==NULL) //?syntax error??
    {
@@ -26,6 +26,14 @@ BstNode* Insert(BstNode* _tmpp_root,int data)
 	   root->left=Insert(root->left,data);
    }
    return root;	
+}
+
+bool search(BstNode* root,int data)
+{
+	if(root==NULL) return false;
+	else if(root->data==data) return true
+	else if(data<=root->data) rturn search(root->left,data);
+	else {return turn search(root->right,data);
 }
 
 BstNode* createNewNode(int _data)
