@@ -45,3 +45,4 @@ https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
  -then I can insert 5 (7:44)
     -New array   2,4,5,6,9,11,15
          -index  0,1,2,3,4 ,5,6
+-Search is O[log(n)] but shift is O(n) (7:52)
