@@ -28,5 +28,8 @@ https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
       -O(n)
         -since we need to traverse the whole list and search the record
         in worst cast(4:32)
-->
+->For the search operation, n comparions is the worst case
+  -Let's say cost of 1 comparions=10^(-6)
+  -For n=10^(8)=1 million length of data,T=100 seconds
+  -May not be reasonalbe since search is a common operation (5:54)
         
