@@ -15,9 +15,17 @@ typedef struct BstNode
 
 BstNode* rootptr=NULL; 
 
-void insert(BstNode* _tmpp_root,int data)
+BstNode* Insert(BstNode* _tmpp_root,int data)
 {
-	
+   if(*root==NULL) //?syntax error??
+   {
+      *root=getNewNode(data);
+   }else if(data<=root->data){
+	   root->left=Insert(root->left,data);
+   }else{
+	   root->left=Insert(root->left,data);
+   }
+   return root;	
 }
 
 BstNode* createNewNode(int _data)
