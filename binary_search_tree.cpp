@@ -1,4 +1,4 @@
-//https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=25
+//https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -33,6 +33,24 @@ int main()
 {
 	
 }
+
+/*Lecture 28:Binary search tree - Implementation in C/C++
+
+https://www.youtube.com/watch?v=COZK7NATh4k&index=28&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+
+-Binary search Tree (BST):A binary tree in which for each node, value of all the nodes
+in left subtree is lesser or equal and value of all nodes in right subtree is greater(0:36)
+-It must be true for all nodes (1:00) not just the root node (1:02)
+-Fig 1 (1:09)
+
+         15
+	/  \
+      10   20
+     / \  /  \
+    8 12 17   25
+ -
+*/
+
 
 /*
 Lecture 25->Data structures: Introduction to Trees (1:51)
