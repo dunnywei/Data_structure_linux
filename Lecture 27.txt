@@ -14,9 +14,19 @@ https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
       -If the array is full, we create a larger array (3:09) like the twice
       size of the filled array (3:12)
       -Then we will copy it the content of old to the new array
-      -Copy operation will take a big O(n) (3:22)
-      ->Delete(1)
+      -Copy operation will take a big O(n) (3:22)(3:35)
+     ->Delete(1)
         -Shift element to the left
         -Worst case O(n) (2:52)
-       ->
+   ->Link List (3:44)
+    -Search
+      -O(n) (3:56)
+    -Insert
+      -O(1) in head
+      -O(n) in tail (4:15)
+     -Remove
+      -O(n)
+        -since we need to traverse the whole list and search the record
+        in worst cast(4:32)
+->
         
