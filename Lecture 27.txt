@@ -2,4 +2,21 @@ https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
 
 ->Lecture 27: Data structures: Binary Search Tree
 
-->
+->quick for search and update (0:15)
+->Store any type, quick search, modify
+  ->array/link list (1:03)
+  ->array
+    ->search(x)
+      -O(n)
+     ->Insert
+      -O(1)
+      -If the array has the available space (2:59)
+      -If the array is full, we create a larger array (3:09) like the twice
+      size of the filled array (3:12)
+      -Then we will copy it the content of old to the new array
+      -Copy operation will take a big O(n) (3:22)
+      ->Delete(1)
+        -Shift element to the left
+        -Worst case O(n) (2:52)
+       ->
+        
