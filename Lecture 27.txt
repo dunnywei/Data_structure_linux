@@ -32,4 +32,16 @@ https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOT
   -Let's say cost of 1 comparions=10^(-6)
   -For n=10^(8)=1 million length of data,T=100 seconds
   -May not be reasonalbe since search is a common operation (5:54)
-        
+->If we can perform binary search in a sorted array. It is O[log(n)] (6:09)
+->Different data type has different method for data structre (6:39)
+->The data structre has to be in an array and must be sorted (6:51)
+->If I want want to insert(5) in the sorted araay for binary search (7:17)
+  -array   2,4,6,9,11,15
+  -index  0,1,2,3,4 ,5
+ ->We can find the postion in order of log n times using binary search (7:20)
+ -We can find the 1st binary search to see if the 1st element is > 5 first(7:27)
+ -Then we need to shift the location at index 2 (7:36)
+ -so whole thing will be shift to the right (7:40)
+ -then I can insert 5 (7:44)
+    -New array   2,4,5,6,9,11,15
+         -index  0,1,2,3,4 ,5,6
