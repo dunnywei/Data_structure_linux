@@ -17,8 +17,8 @@ typedef struct BstNode
 
 BstNode* Insert(BstNode* root,int data)
 {
-   /*
-   if(*root==NULL) //?syntax error??
+   //(7:11)
+   if(root==NULL) //?syntax error??
    {
       //*root=getNewNode(data);
    }else if(data<=root->data){
@@ -26,7 +26,7 @@ BstNode* Insert(BstNode* root,int data)
    }else{
 	   root->left=Insert(root->left,data);
    }
-   */
+   
    return root;	
 }
 
@@ -64,6 +64,7 @@ BstNode* createNewNode(int _data)
 
 int main()
 {
+   BstNode* rootptr=NULL;
 	
 }
 
@@ -85,7 +86,7 @@ in left subtree is lesser or equal and value of all nodes in right subtree is gr
  -Doubl link list is a linear arrangment (2:35)
  -malloc has to be accessed through a pointer (3:15)
  -We need to know the address of the root node (3:53) so we can access all other nodes in a tree(3:57)
- -
+ -(4:46),(7:11)
 */
 
 
