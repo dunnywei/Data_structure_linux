@@ -13,36 +13,53 @@ typedef struct BstNode
 	struct BstNode* right;
 }BstNode;
 
-BstNode* rootptr=NULL; 
+//BstNode* rootptr=NULL; 
 
 BstNode* Insert(BstNode* root,int data)
 {
+   /*
    if(*root==NULL) //?syntax error??
    {
-      *root=getNewNode(data);
+      //*root=getNewNode(data);
    }else if(data<=root->data){
 	   root->left=Insert(root->left,data);
    }else{
 	   root->left=Insert(root->left,data);
    }
+   */
    return root;	
 }
 
 bool search(BstNode* root,int data)
 {
-	if(root==NULL) return false;
-	else if(root->data==data) return true
-	else if(data<=root->data) rturn search(root->left,data);
-	else {return turn search(root->right,data);
+	bool result=true;
+	if(root==NULL)
+	{
+		return false;
+	}
+	else if(root->data==data)
+	{
+		return true;
+	}
+	else if(data<=root->data){
+		return search(root->left,data);
+	}
+	else {
+		return search(root->right,data);
+	}
+	return result;
 }
 
 BstNode* createNewNode(int _data)
 {
+    BstNode* newNode=NULL;
+   /*
    BstNode* newNode=(BstNode*)malloc(sizeof(BstNode));
    (*newNode).data=_data;
    (*newNode).left=NULL;
-   (*newNode).right=NULL;	
-   return newMode;
+   (*newNode).right=NULL;
+   */
+   return newNode;
 }
 
 int main()
