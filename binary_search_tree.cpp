@@ -50,22 +50,22 @@ bool search(BstNode* root,int data)
 	return result;
 }
 
-BstNode* createNewNode(int _data)
-{
-    BstNode* newNode=NULL;
-   /*
+BstNode* GetNewNode(int _data)
+{   
    BstNode* newNode=(BstNode*)malloc(sizeof(BstNode));
-   (*newNode).data=_data;
+   (*newNode).data=_data; //(9:03)
    (*newNode).left=NULL;
    (*newNode).right=NULL;
-   */
+   
    return newNode;
 }
 
 int main()
 {
-   BstNode* rootptr=NULL;
-	
+   BstNode* root=NULL;
+   Insert(root,15);
+   Insert(root,10);
+   Insert(root,20);
 }
 
 /*Lecture 28:Binary search tree - Implementation in C/C++
