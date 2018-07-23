@@ -18,9 +18,10 @@ typedef struct BstNode
 BstNode* Insert(BstNode* root,int data)
 {
    //(7:11)
-   if(root==NULL) //?syntax error??
+   if(root==NULL) //(9:39)
    {
-      //*root=getNewNode(data);
+      root=getNewNode(data);
+      return root; //(11:37)
    }else if(data<=root->data){
 	   root->left=Insert(root->left,data);
    }else{
