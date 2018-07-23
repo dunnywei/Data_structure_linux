@@ -21,17 +21,17 @@ BstNode* Insert(BstNode* root,int data)
    if(root==NULL) //(9:39)
    {
       root=getNewNode(data);
-      return root; //(11:37)
+      
    }else if(data<=root->data){
 	   root->left=Insert(root->left,data);
    }else{
-	   root->left=Insert(root->left,data);
+	   root->right=Insert(root->right,data);//(15:15)
    }
    
    return root;	
 }
 
-bool search(BstNode* root,int data)
+bool Search(BstNode* root,int data)
 {
 	bool result=true;
 	if(root==NULL)
@@ -43,10 +43,10 @@ bool search(BstNode* root,int data)
 		return true;
 	}
 	else if(data<=root->data){
-		return search(root->left,data);
+		return Search(root->left,data);
 	}
 	else {
-		return search(root->right,data);
+		return Search(root->right,data);
 	}
 	return result;
 }
@@ -63,10 +63,19 @@ BstNode* GetNewNode(int _data)
 
 int main()
 {
+   int value=0;
    BstNode* root=NULL;
-   Insert(root,15);
-   Insert(root,10);
-   Insert(root,20);
+   root=Insert(root,15);
+   root=Insert(root,10);
+   root=Insert(root,20);
+   root=Insert(root,25);
+   printf("please enter the value you want to search\n);
+   scanf("%d",value);
+   printf("The value is %d \n",value);
+   if(Searrch(root)==true)
+   {
+      printf("found \n");//(17:47)
+   }
 }
 
 /*Lecture 28:Binary search tree - Implementation in C/C++
@@ -88,6 +97,8 @@ in left subtree is lesser or equal and value of all nodes in right subtree is gr
  -malloc has to be accessed through a pointer (3:15)
  -We need to know the address of the root node (3:53) so we can access all other nodes in a tree(3:57)
  -(4:46),(7:11)
+ -We also can insert it without using by using a temporary (16:35) loop
+ -
 */
 
 
