@@ -93,6 +93,112 @@ int main()
    }
   
 }
+/*
+//my modified version
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+typedef struct BstNode
+{
+	int data;
+	struct BstNode* left;
+	struct BstNode* right;
+}BstNode;
+
+//BstNode* rootptr=NULL; 
+
+BstNode* getNewNode(int _data)
+{   
+   BstNode* newNode=(BstNode*)malloc(sizeof(BstNode));
+   (*newNode).data=_data; //(9:03)
+   (*newNode).left=NULL;
+   (*newNode).right=NULL;
+   
+   return newNode;
+}
+
+
+BstNode* Insert(BstNode* root,int data)
+{
+    if(root==NULL)
+    {
+        root=getNewNode(data);
+        printf("data is %d \n",data);
+    }
+    else if(data<=root->data)
+    {
+        root->left=Insert(root->left,data);
+    }else{
+         root->right=Insert(root->right,data);
+    }
+    return root;
+}
+
+bool Search(BstNode* root,int data)
+{
+    bool result=false;
+	if (data==root->data) {
+	   printf("found it, ,root->data %d\n ",root->data);
+
+	    result=true;
+	}
+	else if(data<=root->data) {
+	    printf("data<=root->data and root->left->data is %d\n ",root->left->data);
+	    result=Search(root->left,data);
+	}
+	else {
+	    printf("else and root->right->data is %d\n ",root->right->data);
+
+	    result=Search(root->right,data);
+	}
+	
+	return result;
+}
+
+
+
+int main()
+{
+   int value=0;
+   BstNode* root=NULL;
+   root=Insert(root,15);
+   
+   root=Insert(root,10);
+   root=Insert(root,20);
+   root=Insert(root,25);
+   
+   /*
+   Insert(root,10);
+   Insert(root,20);
+   Insert(root,25);
+   */
+   printf("root->data is %d \n",root->data);
+   printf("please enter the value you want to search\n");
+   //cin>>value;
+   scanf("%d",&value);
+   printf("value is %d\n",value);
+   
+   if(Search(root,value)==true)
+   {
+      printf("found \n");//(17:47)
+   }else {
+       printf("Not found \n");
+   }
+  
+}
+
+
+
+*/
 
 /*Lecture 28:Binary search tree - Implementation in C/C++
 
