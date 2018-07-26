@@ -114,5 +114,6 @@ int main()
 /*Lecture 30 starts
  *->Trees in left is less/Equal and right of tree is greater
  *->So I want to do here is to write a function called "int FindMin(BstNode* root)" (1:01)
- *->
+ *->There are two approaches to find the minimum
+ 	-One is iterative way (1:26)
 */
