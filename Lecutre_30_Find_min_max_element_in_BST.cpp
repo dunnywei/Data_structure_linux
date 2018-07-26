@@ -21,7 +21,7 @@ typedef struct BstNode
 BstNode* getNewNode(int _data)
 {   
    BstNode* newNode=(BstNode*)malloc(sizeof(BstNode));
-   (*newNode).data=_data; //(9:03)
+   (*newNode).data=_data;
    (*newNode).left=NULL;
    (*newNode).right=NULL;
    
@@ -31,15 +31,14 @@ BstNode* getNewNode(int _data)
 
 BstNode* Insert(BstNode* root,int data)
 {
-   //(7:11)
-   if(root==NULL) //(9:39)
+   if(root==NULL)
    {
       root=getNewNode(data);
       
    }else if(data<=root->data){
 	   root->left=Insert(root->left,data);
    }else{
-	   root->right=Insert(root->right,data);//(15:15)
+	   root->right=Insert(root->right,data);
    }
    
    return root;	
@@ -65,6 +64,22 @@ bool Search(BstNode* root,int data)
 	return result;
 }
 
+int FindMin(BstNode* root)
+{
+    //Lecture 30(1:01)
+    int minimum=10000000;
+    BstNode* current=root;
+    if(root==NULL)
+    {
+	 printf("Error occurs since Tree is empty \n");
+	 return -1;
+    }
+    while(current->left!=NULL)
+    {
+	    current=current->left;
+    }
+    return current->data;
+}
 
 
 int main()
@@ -91,12 +106,13 @@ int main()
    printf("The value is %d \n",value);
    if(Search(root,value)==true)
    {
-      printf("found \n");//(17:47)
+      printf("found \n");
    }
   
 }
 
 /*Lecture 30 starts
  *->Trees in left is less/Equal and right of tree is greater
+ *->So I want to do here is to write a function called "int FindMin(BstNode* root)" (1:01)
  *->
 */
