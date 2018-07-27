@@ -69,7 +69,7 @@ int FindMin(BstNode* root)
     //Lecture 30(1:01)
     int minimum=10000000;
     BstNode* current=root;
-    if(root==NULL)
+    if(root==NULL)//we need to check if tree is empty or not(3:07)
     {
 	 printf("Error occurs since Tree is empty \n");
 	 return -1;
@@ -115,5 +115,8 @@ int main()
  *->Trees in left is less/Equal and right of tree is greater
  *->So I want to do here is to write a function called "int FindMin(BstNode* root)" (1:01)
  *->There are two approaches to find the minimum
- 	-One is iterative way (1:26)
+ *	-One is iterative way (1:26)
+ *	-Second is the recursive solution
+ *->Iterative method (1:35)
+ *->(3:07)->Need to check if tree is empty or not
 */
