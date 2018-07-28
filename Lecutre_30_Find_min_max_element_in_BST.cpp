@@ -92,7 +92,7 @@ int FindMin_recursion(BstNode* root)
     {
 	return current->data;
     }
-    return FindMin_recursion(current);
+    return FindMin_recursion(current->left);
    
 
 }
