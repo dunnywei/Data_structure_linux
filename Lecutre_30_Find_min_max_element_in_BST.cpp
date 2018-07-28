@@ -67,9 +67,8 @@ bool Search(BstNode* root,int data)
 int FindMin(BstNode* root)
 {
     //Lecture 30(1:01)
-    int minimum=10000000;
     BstNode* current=root;
-    if(root==NULL)//we need to check if tree is empty or not(3:07)
+    if(current==NULL)//we need to check if tree is empty or not(3:07)
     {
 	 printf("Error occurs since Tree is empty \n");
 	 return -1;
@@ -81,6 +80,22 @@ int FindMin(BstNode* root)
     return current->data;
 }
 
+int FindMin_recursion(BstNode* root)
+{
+    BstNode* current=root;
+    if(current==NULL)
+    {
+	 printf("Error occurs since Tree is empty \n");
+	 return -1;
+    }
+    else if(current->left==NULL)//Lecture 30 (4:43)
+    {
+	return current->data;
+    }
+    return FindMin_recursion(current);
+   
+
+}
 
 int main()
 {
@@ -91,6 +106,9 @@ int main()
    root=Insert(root,10);
    root=Insert(root,20);
    root=Insert(root,25);
+   //root=Insert(root,9);
+   //root=Insert(root,8);	
+
    
    /*
    Insert(root,10);
@@ -108,7 +126,8 @@ int main()
    {
       printf("found \n");
    }
-  
+   //printf("FindMin is %d \n",FindMin(root));
+   printf("FindMin_recursion is %d \n",FindMin_recursion(root));
 }
 
 /*Lecture 30 starts
@@ -118,5 +137,7 @@ int main()
  *	-One is iterative way (1:26)
  *	-Second is the recursive solution
  *->Iterative method (1:35)
- *->(3:07)->Need to check if tree is empty or not
+ *(3:07)->Need to check if tree is empty or not
+ *(4:20)->find min using recursion
+ *(4:43)->implemeting recursion
 */
