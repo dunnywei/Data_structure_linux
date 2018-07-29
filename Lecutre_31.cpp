@@ -133,4 +133,9 @@ int main()
 ->Bianry tree is a node can has the most two children (0:30)
 ->Depth is the distant from the root (2:15)
 ->Height is the deepest accessible leaf node (2:20)
+->for "Node 2" the depth(penetration) is 1 and height(leaf
+node to the top) is (2:23)
+->height of a tree is the->maxium depth of node in a tree (2:40)
+
+->
 */
