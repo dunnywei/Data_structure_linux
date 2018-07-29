@@ -17,6 +17,8 @@ typedef struct BstNode
 
 //BstNode* rootptr=NULL; 
 
+
+
 BstNode* getNewNode(int _data)
 {   
    BstNode* newNode=(BstNode*)malloc(sizeof(BstNode));
@@ -96,6 +98,11 @@ int FindMin_recursion(BstNode* root)
 
 }
 
+FindHeight(BstNode* root)
+{
+	
+}
+
 int main()
 {
    int value=0;
@@ -136,6 +143,5 @@ int main()
 ->for "Node 2" the depth(penetration) is 1 and height(leaf
 node to the top) is (2:23)
 ->height of a tree is the->maxium depth of node in a tree (2:40)
-
 ->
 */
