@@ -131,5 +131,6 @@ int main()
 /*Lecture 31
 ->We try to find the maxium depth of the binary tree (0:08)
 ->Bianry tree is a node can has the most two children (0:30)
-
+->Depth is the distant from the root (2:15)
+->Height is the deepest accessible leaf node (2:20)
 */
