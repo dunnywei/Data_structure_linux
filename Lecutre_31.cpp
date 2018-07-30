@@ -98,9 +98,20 @@ int FindMin_recursion(BstNode* root)
 
 }
 
-FindHeight(BstNode* root)
+int FindHeight(BstNode* root)
 {
-	
+   //Lecture 31 (3:00)
+   BstNode* current=root;
+   int leftheight=0;
+   int rightheight=0;
+
+   if(current==NULL)
+   {
+       return -1;
+   }
+   leftheight=FindHeight(current->left);
+   rightheight=FindHeight(current->right);
+   return max(leftheight,rightheight);
 }
 
 int main()
@@ -143,5 +154,5 @@ int main()
 ->for "Node 2" the depth(penetration) is 1 and height(leaf
 node to the top) is (2:23)
 ->height of a tree is the->maxium depth of node in a tree (2:40)
-->
+->(3:00)
 */
