@@ -155,4 +155,9 @@ int main()
 node to the top) is (2:23)
 ->height of a tree is the->maxium depth of node in a tree (2:40)
 ->(3:00)
+->greates of left or right +1 (3:23)
+->Example->height of left of root is 2 and 
+           height of right of root is 1 (3:35)
+->So Height=Max(2,1)+1 (3:35)
+	-the 1 is connect the edge to the root node of sub tree (3:42)
 */
