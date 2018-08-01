@@ -111,7 +111,7 @@ int FindHeight(BstNode* root)
    }
    leftheight=FindHeight(current->left);
    rightheight=FindHeight(current->right);
-   return max(leftheight,rightheight);
+   return max(leftheight,rightheight)+1;//(7:07)
 }
 
 int main()
@@ -162,4 +162,8 @@ node to the top) is (2:23)
 	-the 1 is connect the edge to the root node of sub tree (3:42)
 	-height of the root node will be the height of the tree=3(3:46)
 ->Should we return 0 or -1 if(root is NULL) (5:26)
+->Time complexity is O(N) where N is (6:39) # of nodes in the tree (6:39)
+->We will visit each node in the tree once (6:48)
+->Running time is proportional to the # of nodes in the tree (6:51)
+->
 */
