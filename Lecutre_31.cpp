@@ -1,5 +1,8 @@
 //Lecutre_31_Find height of a binary tree
 //https://www.youtube.com/watch?v=_pnqMz5nrRs&index=31&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+
+ #define max(X,Y) ((X)>(Y) ? (X):(Y))
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -144,7 +147,10 @@ int main()
       printf("found \n");
    }
    //printf("FindMin is %d \n",FindMin(root));
-   printf("FindMin_recursion is %d \n",FindMin_recursion(root));
+   //printf("FindMin_recursion is %d \n",FindMin_recursion(root));
+	
+	
+   printf("FindHeight(root) %d \n",FindHeight(root));
 }
 /*Lecture 31
 ->We try to find the maxium depth of the binary tree (0:08)
