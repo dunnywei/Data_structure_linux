@@ -164,6 +164,33 @@ to the next node until the end (0:24)
 ->However tree is not a linear data structure (0:33)
 ->Which order should I vist the node?
 ->In binary tree, we can have more than one possible direction (0:48)
-->Tree Traversal->The process of visiting each node in the tree exactly once in some order (1:25)
-->visi=reading/processing data in a node (1:29)
+->Definition of Tree Traversal->The process of visiting each node in the tree exactly once in some order (1:25)
+->visi=reading/processing data in a node (1:33)
+	-In this lession, traverse meanse priting data in the node (1:37)
+->There are two categories for traversing the tree
+->1)Breadth-frist (1:47)
+->
+->2)Depth First (1:49)
+->Both bradth-first and depth-first are used in another data structure Graph (2:00)
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+
 */
