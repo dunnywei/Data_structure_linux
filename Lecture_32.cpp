@@ -168,11 +168,13 @@ to the next node until the end (0:24)
 ->visi=reading/processing data in a node (1:33)
 	-In this lession, traverse meanse priting data in the node (1:37)
 ->There are two categories for traversing the tree
-->1)Breadth-frist (1:47)
-->
-->2)Depth First (1:49)
+->1)Breadth-frist (1:47) and 2)Depth First (1:49)
 ->Both bradth-first and depth-first are used in another data structure Graph (2:00)
-->
+
+->Tree is a special kind of graph(2:07)
+->In readth-frist (1:47)
+  -Visit all the nodes at the same depth or level(2:20) before visiting the node at next level
+  (2:22)
 ->
 ->
 ->
