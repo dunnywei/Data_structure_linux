@@ -159,6 +159,7 @@ int main()
 //Lecture 32 starts
 /*
 ->When we want to traverse the tree, tree is not a linear data as the array or linke list (0:08)(0:13) 
-->Linear means that we have the logical star and logical end (0:19)
-->
+->Linear means that we have the logical star and logical end (0:19) so will have a pointer from start and traverse
+to the next node until the end (0:24)
+->However tree is not a linear data structure (0:33)
 */
