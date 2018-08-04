@@ -162,4 +162,8 @@ int main()
 ->Linear means that we have the logical star and logical end (0:19) so will have a pointer from start and traverse
 to the next node until the end (0:24)
 ->However tree is not a linear data structure (0:33)
+->Which order should I vist the node?
+->In binary tree, we can have more than one possible direction (0:48)
+->Tree Traversal->The process of visiting each node in the tree exactly once in some order (1:25)
+->visi=reading/processing data in a node (1:29)
 */
