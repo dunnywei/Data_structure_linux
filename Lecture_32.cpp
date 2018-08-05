@@ -176,7 +176,12 @@ to the next node until the end (0:24)
   -Visit all the nodes at the same depth or level(2:20) before visiting the node at next level
   (2:22)
   -After level 0, we will visit the node from left to right (3:18)
-->
+  -So we will visit F    as level 0 (3:24)
+                    D,J  as Level 1
+                    BEGK as Level 2
+		   ACI   as Level 3
+		    H    as level 4
+  -It is a.k.a level traversal (3:45)
 ->
 ->
 ->
