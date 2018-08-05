@@ -175,6 +175,7 @@ to the next node until the end (0:24)
 ->In readth-frist (1:47)
   -Visit all the nodes at the same depth or level(2:20) before visiting the node at next level
   (2:22)
+  -After level 0, we will visit the node from left to right (3:18)
 ->
 ->
 ->
