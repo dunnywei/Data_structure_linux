@@ -181,8 +181,11 @@ to the next node until the end (0:24)
                     BEGK as Level 2
 		   ACI   as Level 3
 		    H    as level 4
-  -It is a.k.a level traversal (3:45)
-->
+  -It is a.k.a level traversal (3:45) or level order
+  -We visit all of the childeren (in the same level) before going to the grand-children (next 
+  level (4:01)
+->->In Depth-frist (4:14)
+
 ->
 ->
 ->
