@@ -187,12 +187,15 @@ to the next node until the end (0:24)
 ->In Depth-frist (4:14)
    -we would go to a child and complete the whole subtree of the child before going to
    the next child (4:19)
-   -We start at F and go to D, we should finish this left subtree in its complete depth (4:32)
-   -We should finish the left grandchildren of F before going to the right child of F->J (4:42)
+   -We start at F, we should finish this left subtree of F in its complete depth (4:32)
+   -We should finish the left grandchildren of F->D before going to the right child of F->J (4:42)
    -Once we are at J, we will complete the the right subtree of F (4:48)
    -IN Depth first appraoch, the relative order of visiting (4:54) the left 
    of subtree, the right subtree and root node (4:58) can be different (5:00)
-   -
+   -For example we can first vist the right of subtree (5:03), then the root then the left of
+   subtree (5:07)
+   -OR we can visit root, left of the subtree and right of the subtree (5:13)
+   -Core startegy (5:20)
 ->
 ->
 ->
