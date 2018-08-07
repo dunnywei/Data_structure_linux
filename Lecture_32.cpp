@@ -184,8 +184,15 @@ to the next node until the end (0:24)
   -It is a.k.a level traversal (3:45) or level order
   -We visit all of the childeren (in the same level) before going to the grand-children (next 
   level (4:01)
-->->In Depth-frist (4:14)
-
+->In Depth-frist (4:14)
+   -we would go to a child and complete the whole subtree of the child before going to
+   the next child (4:19)
+   -We start at F and go to D, we should finish this left subtree in its complete depth (4:32)
+   -We should finish the left grandchildren of F before going to the right child of F->J (4:42)
+   -Once we are at J, we will complete the the right subtree of F (4:48)
+   -IN Depth first appraoch, the relative order of visiting (4:54) the left 
+   of subtree, the right subtree and root node (4:58) can be different (5:00)
+   -
 ->
 ->
 ->
