@@ -195,7 +195,8 @@ to the next node until the end (0:24)
    -For example we can first vist the right of subtree (5:03), then the root then the left of
    subtree (5:07)
    -OR we can visit root, left of the subtree and right of the subtree (5:13)
-   -Core startegy (5:20)
+   -Core startegy (5:20) in depth-first->visiting the complete subtree in that path(5:19)
+   -Visiting a node is reading,processing and printting data in that node (5:28) 
 ->
 ->
 ->
