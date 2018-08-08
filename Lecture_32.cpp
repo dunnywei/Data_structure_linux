@@ -197,6 +197,10 @@ to the next node until the end (0:24)
    -OR we can visit root, left of the subtree and right of the subtree (5:13)
    -Core startegy (5:20) in depth-first->visiting the complete subtree in that path(5:19)
    -Visiting a node is reading,processing and printting data in that node (5:28) 
+   -There are three popular depth startegies (5:36)
+   	-Visit root, left, right (5:39). Where left and right will visit recursively (5:46). A.K.A pre-order traversal (5:50)
+	-
+	
 ->
 ->
 ->
