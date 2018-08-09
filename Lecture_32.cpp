@@ -207,9 +207,17 @@ to the next node until the end (0:24)
 	    -LRD(7:27)
    -Convetionally left subtree is always visited before right subtree (6:17)
    -Only the position of root is changing (6:25)
-	
-	
-->
+		   -      F                L0
+			/  \
+		       D    J              L1
+		     / \  /  \
+		    B   E G    K	   L2
+	           / \     \
+                  A  C     I               L3
+		          /
+			 H                 L4
+->Using the example and find out the Preorder (DLR) (7:45)
+
 ->
 ->
 ->
