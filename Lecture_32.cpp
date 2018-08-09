@@ -219,7 +219,9 @@ to the next node until the end (0:24)
 ->Using the example and find out the Preorder (DLR) or (VLR) (7:45)
 	-Start at root node and for each node, we first need to read the data(7:50)
 	-(8:15)So starts at FDBACE (9:22). Left of F is done
-	-FDBACE then right of the tree 
+	-FDBACE then right of the tree JGIHK (9:54)
+->In order(L,D,R) traversal of binary tree (10:06)
+	
 ->
 ->
 ->
