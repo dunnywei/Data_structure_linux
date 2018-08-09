@@ -199,10 +199,12 @@ to the next node until the end (0:24)
    -Visiting a node is reading,processing and printting data in that node (5:28) 
    -There are three popular depth startegies (5:36)
    	-1st->(<Root>)<Left><Right> (5:39). Where left subtree and right subtree will visit recursively (5:46). A.K.A pre-order traversal (5:50)
+	      -D(data),L,R->read data on the current node then LEFT and RIGHT (6:58)
 	
 	-2nd-><Left>(<Root>)<Right>. A.K.A in order traversal (6:00)
-	
+	    -LDR
 	-3rd-><Left><Right>(<Root>_. A.K.A post order traversal (6:07)
+	    -LRD(7:27)
    -Convetionally left subtree is always visited before right subtree (6:17)
    -Only the position of root is changing (6:25)
 	
