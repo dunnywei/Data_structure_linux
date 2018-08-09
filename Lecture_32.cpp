@@ -221,7 +221,7 @@ to the next node until the end (0:24)
 	-(8:15)So starts at FDBACE (9:22). Left of F is done
 	-FDBACE then right of the tree JGIHK (9:54)
 ->In order(L,D,R) traversal of binary tree (10:06)
-	
+	-Start at root ABCDE (Left tree done) (11:11)
 ->
 ->
 ->
