@@ -222,6 +222,10 @@ to the next node until the end (0:24)
 	-FDBACE then right of the tree JGIHK (9:54)
 ->In order(L,D,R) traversal of binary tree (10:06)
 	-Start at root ABCDE (Left tree done) (11:11)
+	-Starts at right tree 
+		-FGHIJK
+	-It is a binary search tree (11:21)
+->
 ->
 ->
 ->
