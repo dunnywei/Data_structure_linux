@@ -157,20 +157,21 @@ int main()
 
 //Lecture 33 starts
 /*
-
-
-		   F                L0
-			/  \
-		D    J              L1
-	/ \  /  \
- B   E G    K	          L2
-/ \     \
-A  C     I              L3
-		    /
-			 H                L4
-    
-
 ->
+->
+->
+->		          F                L0
+->			/  \
+->		       D    J              L1
+->	              / \  /  \
+->                   B   E G    K	          L2
+->                  / \     \
+->                  A  C     I              L3
+->		            /
+->			   H                L4
+->
+->
+->In this lession, we are going to focus on the implementation of level traversal (0:03)
 ->
 ->
 ->
