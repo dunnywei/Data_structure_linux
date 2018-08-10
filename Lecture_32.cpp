@@ -225,7 +225,11 @@ to the next node until the end (0:24)
 	-Starts at right tree 
 		-FGHIJK
 	-It is a binary search tree (11:21)
-->
+	-It will give you a SORTED LIST (11:35) **IMPORTANT**
+->Post Order(L,R,D) traversal of binary tree
+	-Starts at root and go to Left
+	-ACBED Left subtree is done
+	-HIGKJF
 ->
 ->
 ->
