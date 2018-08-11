@@ -172,6 +172,8 @@ int main()
 ->
 ->
 ->In this lession, we are going to focus on the implementation of level traversal (0:03)
+->We will visit all nodes at the particular depth (0:11) or level before visiting the next deoper level
+(0:15)
 ->
 ->
 ->
