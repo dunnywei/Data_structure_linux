@@ -175,7 +175,7 @@ int main()
 ->We will visit all nodes at the particular depth (0:11) or level before visiting the next deoper level
 (0:15)
 ->FDJBEGKACIH
-->If I have a pointer named "current" (1:10)
+->If I have a pointer named "current" (1:10), I can go left to D (1:21)
 ->
 ->
 ->
