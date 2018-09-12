@@ -172,11 +172,14 @@ int main()
 ->
 ->
 ->In this lession, we are going to focus on the implementation of level traversal (0:03)
-->We will visit all nodes at the particular depth (0:11) or level before visiting the next deoper level
+->We will visit all nodes at the particular depth (0:11) or level before visiting the next deeper level
 (0:15)
 ->FDJBEGKACIH
 ->If I have a pointer named "current" (1:10), I can go left to D (1:21). HOwever from D, I can't go to J (1:23)
 	-Since we don't have a link from D to J. The only link is from F(1:28)
+	-Once we are in D, we can't go back to F since there is no backward link from D to F (1:32)
+	-Whwat we can do is as we visit a noode, we can reference or address all its children (1:48) in a queue (1:50)
+	-
 ->
 ->
 ->
