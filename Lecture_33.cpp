@@ -178,8 +178,12 @@ int main()
 ->If I have a pointer named "current" (1:10), I can go left to D (1:21). HOwever from D, I can't go to J (1:23)
 	-Since we don't have a link from D to J. The only link is from F(1:28)
 	-Once we are in D, we can't go back to F since there is no backward link from D to F (1:32)
-	-Whwat we can do is as we visit a noode, we can reference or address all its children (1:48) in a queue (1:50)
-	-
+	-Whwat we can do is as we visit a noode, we can reference or address all its children (1:48) in a queue (1:50) so
+	we can visit them later.
+->A node in a queue is called discovered node. The address is known to us but is not visited
+  yet (1:58)
+->Initially, We can start at the address of the root in the queue to mean that intially this is
+  the only discovered node (2:05)
 ->
 ->
 ->
