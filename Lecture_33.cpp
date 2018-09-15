@@ -184,6 +184,9 @@ int main()
   yet (1:58)
 ->Initially, We can start at the address of the root in the queue to mean that intially this is
   the only discovered node (2:05)
+	-400 means the address of root node is 400 (2:18)
+	-Storing the address in the queue (2:25)
+	-
 ->
 ->
 ->
