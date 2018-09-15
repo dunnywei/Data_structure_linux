@@ -186,6 +186,8 @@ int main()
   the only discovered node (2:05)
 	-400 means the address of root node is 400 (2:18)
 	-Storing the address in the queue (2:25)
+	-As long as the queue has at least one discovered node (queue is not empty),we can take out
+	the node from the front (2:39) we can visit it and enqueue its children (2:42)
 	-
 ->
 ->
