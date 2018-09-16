@@ -160,15 +160,20 @@ int main()
 ->
 ->
 ->
-->		          F                L0
-->			/  \
-->		       D    J              L1
-->	              / \  /  \
-->                   B   E G    K	          L2
-->                  / \     \
-->                  A  C     I              L3
-->		            /
-->			   H                L4
+->		            F(400)                         L0
+->			/            \
+->		       D(200)          J(100)              L1
+->	              /      \        /       \
+->                   B(120)   E(160) G(220)    K(300)	   L2
+->                  /      \           \
+->                 A(320)  C(780)     I(560)               L3
+->		                      /
+->			             H(720)                L4
+->
+->Queue
+   <-  |400|      <-
+   
+   queue(FIFO)
 ->
 ->
 ->In this lession, we are going to focus on the implementation of level traversal (0:03)
