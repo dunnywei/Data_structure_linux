@@ -201,11 +201,14 @@ int main()
 	-><- (empty)  <-
 	->   |     |
         ->F is written here
-	    -Now including the children as left child and right child(2:57)
+	    -Now including the children as left child (200) and right child (300) (2:57)
 	--><- |200|100|  <-
 	->    | D | J |
         ->F is written here
-	    -	
+	    -Now we have one visited node and two discovered node (3:04)
+	    -We can take out the node at the front of the queue, visit it and enqueue its childern (3:09)
+	    -By using a queue, we are doing two things (3:12)
+	    	-
 	-
 ->
 ->
