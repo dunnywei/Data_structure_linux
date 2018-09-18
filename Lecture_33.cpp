@@ -172,7 +172,7 @@ int main()
 ->
 ->Queue
    <-  |400|      <-
-   
+        F
    queue(FIFO)
 ->
 ->
@@ -191,8 +191,14 @@ int main()
   the only discovered node (2:05)
 	-400 means the address of root node is 400 (2:18)
 	-Storing the address in the queue (2:25)
+	-Initially, we will start at the discover node (2:29)
 	-As long as the queue has at least one discovered node (queue is not empty),we can take out
-	the node from the front (2:39) we can visit it and enqueue its children (2:42)
+	the node from the front (2:39) we can visit it and enqueue its children (2:42) 
+	   -visiting a node means to print the value in that node (2:46)	
+	   -In this case, 400 will be taken out as 
+	   
+	    <- (empty)  <-
+        F
 	-Storing the nodes in the queue means storing the address in the queue (2:25)
 	-
 ->
