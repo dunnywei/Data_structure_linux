@@ -209,7 +209,8 @@ int main()
 	    -We can take out the node at the front of the queue, visit it and enqueue its childern (3:09)
 	    -By using a queue, we are doing two things (3:12)
 	    	-
-	-
+	     -
+	-(3:46)
 ->
 ->
 ->
