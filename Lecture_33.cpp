@@ -211,6 +211,7 @@ int main()
 	    	-
 	     -
 	-(3:46)
+	-We have two visited node,discovered node and 6 undisovered nodes (3:53)
 ->
 ->
 ->
